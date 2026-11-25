@@ -1,0 +1,19 @@
+{
+  "name": "rescue-crane-sim",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "铁路救援吊复方案推演系统 (TypeScript + WebGL2, 无第三方渲染引擎)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
